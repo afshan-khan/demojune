@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  /* background-color: greenyellow;
+  color:black; */
+}
+h1{
+  margin: 0;
+}
+
+.header{
+  background-color: rgb(78, 231, 17);
+  color: black;
+  padding: 8px;
+}
+ /* small box side-by-side create krke dega diff movies ko*/
+.main{
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.movies{
+  font-weight: bold;
+  background-color: rgb(230, 245, 243);
+  border: 1px solid red;
+  padding: 10px;
+  text-align: start;
+  width: 22%;
+  margin-top: 20px;
+}
+.movies img{
+  height: 240px;
+  width: 100%;
+}
